@@ -381,3 +381,12 @@
 //   }
 // }
 // number();
+
+// 7. Funksiya yozing, bu funksiya berilgan so'zning uzunligini qaytarsin.
+// function str() {
+//   let str = prompt("Ismingizni kiriting!");
+//   let str2 = str.length;
+//   console.log("Sizning ismingizni uzunligi--> " + str2);
+//   alert("Sizning ismingizni uzunligi--> " + str2);
+// }
+// str();
