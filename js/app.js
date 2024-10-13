@@ -354,3 +354,30 @@
 //   alert(arr2);
 // }
 // kattaKichikSon();
+
+// 5. Funksiya yozing, bu funksiya massiv ichidagi barcha sonlarning o'rtacha qiymatini qaytarsin.
+// function center() {
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   sum = sum / arr.length;
+//   console.log(sum);
+//   alert(sum);
+// }
+// center();
+
+// 6. Funksiya yozing, bu funksiya berilgan son musbat yoki manfiy ekanligini aniqlasin va natijani qaytarsin.
+// function number() {
+//   let num = +prompt("Son kiriting!");
+//   if (num > 0) {
+//     console.log("Musbat son");
+//   } else if (num < 0) {
+//     console.log("Manfiy son");
+//   } else {
+//     console.log("Son 0ga teng");
+//     alert("Son 0ga teng");
+//   }
+// }
+// number();
