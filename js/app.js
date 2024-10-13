@@ -266,32 +266,32 @@
 // bigStr();
 
 // 15. Funksiya yozing, bu funksiya massivdagi har bir elementning uzunligini hisoblab, natijalarni yangi massivda qaytarsin (agar element string bo'lsa).
-function uzunlik() {
-  let arr = [
-    "hello",
-    "world",
-    "javascript",
-    "python",
-    "java",
-    123,
-    456,
-    789,
-    101,
-    202,
-    303,
-    true,
-    false,
-    null,
-    undefined,
-    "string",
-  ];
-  let arr2 = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (typeof arr[i] === "string") {
-      arr2.push(arr[i].length);
-    }
-  }
-  alert(arr2);
-  console.log(arr2);
-}
-uzunlik();
+// function uzunlik() {
+//   let arr = [
+//     "hello",
+//     "world",
+//     "javascript",
+//     "python",
+//     "java",
+//     123,
+//     456,
+//     789,
+//     101,
+//     202,
+//     303,
+//     true,
+//     false,
+//     null,
+//     undefined,
+//     "string",
+//   ];
+//   let arr2 = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === "string") {
+//       arr2.push(arr[i].length);
+//     }
+//   }
+//   alert(arr2);
+//   console.log(arr2);
+// }
+// uzunlik();
