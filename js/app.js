@@ -376,3 +376,22 @@
 //   alert(res);
 // }
 // str();
+
+// 7. Funksiya yozing, bu funksiya berilgan massiv ichidagi barcha elementlarni ikki qismga ajratsin: juft va toq elementlar, va yangi massivlar qaytarsin.
+// function num() {
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let juft = [];
+//   let toq = [];
+//   for (let i = 0; i <= arr.length; i++) {
+//     if (arr[i] % 2 == 0) {
+//       juft.push(arr[i]);
+//     } else {
+//       toq.push(arr[i]);
+//     }
+//   }
+//   console.log(juft);
+//   console.log(toq);
+//   alert("Toq sonlar--> " + juft);
+//   alert("Toq sonlar--> " + toq);
+// }
+// num();
