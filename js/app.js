@@ -415,3 +415,14 @@
 //   alert(res);
 // }
 // str();
+
+// 10. Funksiya yozing, bu funksiya massiv ichidagi sonlarning orasidagi eng katta farqni qaytarsin.
+// function max() {
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let max = Math.max(...arr);
+//   let min = Math.min(...arr);
+//   let farq = max - min;
+//   console.log(farq);
+//   alert(farq);
+// }
+// max();
