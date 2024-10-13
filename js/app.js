@@ -324,3 +324,12 @@
 //   alert(arr2);
 // }
 // deleteNum();
+
+// 3. Funksiya yozing, bu funksiya massiv ichidagi elementlarni tartiblasin (katta-kichik tartibda).
+// function sortNum() {
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let arr2 = arr.sort((a, b) => b - a);
+//   console.log(arr2);
+//   alert(arr2);
+// }
+// sortNum();
