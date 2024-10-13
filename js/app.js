@@ -295,3 +295,19 @@
 //   console.log(arr2);
 // }
 // uzunlik();
+
+// --------------> Jarima masalalar <--------------
+
+// 1. Funksiya yozing, bu funksiya massivdagi har bir sonni ikki baravar qilib qaytarsin.
+// function num() {
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let arr2 = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     arr2.push(arr[i] * 2);
+//   }
+//   console.log(arr2);
+//   alert(arr2);
+// }
+// num();
+
+//
