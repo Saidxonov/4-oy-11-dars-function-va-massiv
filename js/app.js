@@ -310,4 +310,17 @@
 // }
 // num();
 
-//
+// 2. Funksiya yozing, bu funksiya berilgan massiv ichidan ma'lum bir qiymatni o'chirib, yangi massivni qaytarsin.
+// function deleteNum() {
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let num = 5;
+//   let arr2 = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== num) {
+//       arr2.push(arr[i]);
+//     }
+//   }
+//   console.log(arr2);
+//   alert(arr2);
+// }
+// deleteNum();
