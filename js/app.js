@@ -426,3 +426,49 @@
 //   alert(farq);
 // }
 // max();
+
+// 11. Funksiya yozing, bu funksiya berilgan massivdan barcha manfiy sonlarni olib tashlasin va yangi massiv qaytarsin.
+// function num() {
+//   let arr = [-1, -2, -3, 4, 5, 6, 7, 8, 9, 10];
+//   let res = [];
+//   for (let i = 0; i <= arr.length; i++) {
+//     if (arr[i] > 0) {
+//       res.push(arr[i]);
+//     }
+//   }
+//   console.log(res);
+//   alert(res);
+// }
+// num();
+
+// 12. Funksiya yozing, bu funksiya berilgan massivni string ko'rinishiga keltirib, har bir elementni vergul bilan ajratsin.
+// function str() {
+//   let arr = [1, 2, 3, 4, 5];
+//   let res = arr.join(",");
+//   console.log(res);
+//   alert(res);
+// }
+// str();
+
+// 13. Funksiya yozing, bu funksiya berilgan massiv ichidan faqat stringlarni ajratib olsin va yangi massiv qaytarsin.
+// function str() {
+//   let arr = ["1", "2", 3, "4", "5"];
+//   let res = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === "string") {
+//       res.push(arr[i]);
+//     }
+//   }
+//   console.log(res);
+//   alert(res);
+// }
+// str();
+
+// 14. Funksiya yozing, bu funksiya massivdagi faqat falsy (false, 0, '', null, undefined, NaN) qiymatlarni olib tashlab, natijani qaytarsin.
+// function falsy() {
+//   let arr = [1, 2, 0, "", false, null, undefined, NaN, "hello", 5, 6, 7, 8, 9];
+//   let res = arr.filter((item) => item);
+//   console.log(res);
+//   alert(res);
+// }
+// falsy();
