@@ -368,25 +368,11 @@
 // }
 // center();
 
-// 6. Funksiya yozing, bu funksiya berilgan son musbat yoki manfiy ekanligini aniqlasin va natijani qaytarsin.
-// function number() {
-//   let num = +prompt("Son kiriting!");
-//   if (num > 0) {
-//     console.log("Musbat son");
-//   } else if (num < 0) {
-//     console.log("Manfiy son");
-//   } else {
-//     console.log("Son 0ga teng");
-//     alert("Son 0ga teng");
-//   }
-// }
-// number();
-
-// 7. Funksiya yozing, bu funksiya berilgan so'zning uzunligini qaytarsin.
+// 6. Funksiya yozing, bu funksiya massivning har bir elementini string sifatida qaytarsin.
 // function str() {
-//   let str = prompt("Ismingizni kiriting!");
-//   let str2 = str.length;
-//   console.log("Sizning ismingizni uzunligi--> " + str2);
-//   alert("Sizning ismingizni uzunligi--> " + str2);
+//   let userNumber = +prompt("Xoxlagan narsangizni kiriting!");
+//   let res = String(userNumber);
+//   console.log(res);
+//   alert(res);
 // }
 // str();
