@@ -333,3 +333,24 @@
 //   alert(arr2);
 // }
 // sortNum();
+
+// 4. Funksiya yozing, bu funksiya massiv ichidan eng kichik va eng katta sonni topib, natijalarni massiv ko'rinishida qaytarsin.
+// function kattaKichikSon() {
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let min = arr[0];
+//   let max = arr[0];
+//   let arr2 = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < min) {
+//       min = arr[i];
+//     }
+//     if (arr[i] > max) {
+//       max = arr[i];
+//     }
+//   }
+//   arr2.push(min);
+//   arr2.push(max);
+//   console.log(arr2);
+//   alert(arr2);
+// }
+// kattaKichikSon();
