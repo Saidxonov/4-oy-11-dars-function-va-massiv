@@ -406,3 +406,12 @@
 //   alert(arr2);
 // }
 // number();
+
+// 9. Funksiya yozing, bu funksiya massiv ichidagi barcha elementlarni boshidan oxirigacha ketma-ket birlashtirib, bitta string qaytarsin.
+// function str() {
+//   let arr = ["1", "2", "3", "4", "5"];
+//   let res = arr.join("");
+//   console.log(res);
+//   alert(res);
+// }
+// str();
