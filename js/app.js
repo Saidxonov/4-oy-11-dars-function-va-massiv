@@ -395,3 +395,14 @@
 //   alert("Toq sonlar--> " + toq);
 // }
 // num();
+
+// 8. Funksiya yozing, bu funksiya berilgan massiv ichidagi raqamlarni kichikdan kattaga qarab tartiblasin va yangi massivni qaytarsin.
+// function number() {
+//   let arr = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+//   let arr2 = arr.sort(function (a, b) {
+//     return a - b;
+//   });
+//   console.log(arr2);
+//   alert(arr2);
+// }
+// number();
